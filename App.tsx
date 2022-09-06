@@ -9,13 +9,12 @@ export function App() {
           <Link to="/C">C</Link> |<Link to="/R">R</Link> |<Link to="/P">P</Link>{' '}
           |
           <Routes>
-            <Route path="/" element={<div>R</div>}>
-              <Route index element={<div>R</div>} />
-              <Route path="C" element={<div>C</div>} />
-              <Route path="R" element={<div>R</div>} />
-              <Route path="P" element={<div>P</div>} />
-              <Route path="*" element={<div>No Page</div>} />
-            </Route>
+            <Route path="/" element={<div>R</div>} />
+            <Route index element={<div>R</div>} />
+            <Route path="C" element={<div>C</div>} />
+            <Route path="R" element={<div>R</div>} />
+            <Route path="P" element={<div>P</div>} />
+            <Route path="*" element={<div>No Page</div>} />
           </Routes>
         </React.StrictMode>
       </BrowserRouter>
